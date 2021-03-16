@@ -1,9 +1,10 @@
 {
-    "name": "mallka/easy-geo",
+    "name": "mallka/easygeo",
     "description": "wrapper of geolite2 city/asn and support update db file",
     "type": "library",
     "require": {
-        "maxmind-db/reader": "~1.0"
+        "maxmind-db/reader": "~1.0",
+        "tronovav/geoip2-update": "^1.2"
     },
     "license": "mit",
     "authors": [
@@ -14,7 +15,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "mallka\\easyGeo\\":  "./src"
+            "mallka\\easygeo\\":  "./src"
         }
     }
 }
