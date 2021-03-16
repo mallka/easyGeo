@@ -1,5 +1,8 @@
 # easyGeo
 
+[中文说明](README_zh-CN.md)
+
+
 # features
 1. Update ip db file 
 2. Wrapper of geolite city & asn , it will return an array include city & asn info.
@@ -57,7 +60,7 @@ composer require mallka/easygeo
 ## via direct download
 1. download the file (include file)
 2. set floder permissions to 777 for store floder when you on linux ,like chmod -Rf 777  store
-3. use it or learn it from example.php
+3. use it or learn it from *test.php*
 
 
 
