@@ -1,0 +1,111 @@
+[
+    {
+        "name": "maxmind-db/reader",
+        "version": "v1.10.0",
+        "version_normalized": "1.10.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/maxmind/MaxMind-DB-Reader-php.git",
+            "reference": "07f84d969cfc527ce49388558a366ad376f1f35c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/maxmind/MaxMind-DB-Reader-php/zipball/07f84d969cfc527ce49388558a366ad376f1f35c",
+            "reference": "07f84d969cfc527ce49388558a366ad376f1f35c",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=7.2"
+        },
+        "conflict": {
+            "ext-maxminddb": "<1.10.0,>=2.0.0"
+        },
+        "require-dev": {
+            "friendsofphp/php-cs-fixer": "*",
+            "php-coveralls/php-coveralls": "^2.1",
+            "phpstan/phpstan": "*",
+            "phpunit/phpcov": ">=6.0.0",
+            "phpunit/phpunit": ">=8.0.0,<10.0.0",
+            "squizlabs/php_codesniffer": "3.*"
+        },
+        "suggest": {
+            "ext-bcmath": "bcmath or gmp is required for decoding larger integers with the pure PHP decoder",
+            "ext-gmp": "bcmath or gmp is required for decoding larger integers with the pure PHP decoder",
+            "ext-maxminddb": "A C-based database decoder that provides significantly faster lookups"
+        },
+        "time": "2021-02-09T17:52:47+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "MaxMind\\Db\\": "src/MaxMind/Db"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "Gregory J. Oschwald",
+                "email": "goschwald@maxmind.com",
+                "homepage": "https://www.maxmind.com/"
+            }
+        ],
+        "description": "MaxMind DB Reader API",
+        "homepage": "https://github.com/maxmind/MaxMind-DB-Reader-php",
+        "keywords": [
+            "database",
+            "geoip",
+            "geoip2",
+            "geolocation",
+            "maxmind"
+        ]
+    },
+    {
+        "name": "tronovav/geoip2-update",
+        "version": "v1.2.5",
+        "version_normalized": "1.2.5.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/tronovav/geoip2-update.git",
+            "reference": "5d6947067b96f075c2e65a242f66987436468649"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/tronovav/geoip2-update/zipball/5d6947067b96f075c2e65a242f66987436468649",
+            "reference": "5d6947067b96f075c2e65a242f66987436468649",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "php": ">=5.3.0"
+        },
+        "time": "2021-03-02T00:26:55+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "tronovav\\GeoIP2Update\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "Update GeoIP2/GeoLite2 databases from your script, program or via composer.",
+        "keywords": [
+            "geoip",
+            "geoip2",
+            "geolite2",
+            "geolocation",
+            "maxmind"
+        ],
+        "funding": [
+            {
+                "url": "https://yoomoney.ru/to/410016198845596",
+                "type": "other"
+            }
+        ]
+    }
+]
