@@ -47,7 +47,7 @@ $res will display as bellow:
 ```
 
 
-# 如何按照
+# 如何安装
 
 ##  composer 
 ```shell
