@@ -15,6 +15,10 @@ class ComposerStaticInitf81e87dc7d1ea0708593c795d5b0d828
         array (
             'mallka\\easygeo\\' => 15,
         ),
+        'S' => 
+        array (
+            'SmartJson\\IpLocationZh\\' => 23,
+        ),
         'M' => 
         array (
             'MaxMind\\Db\\' => 11,
@@ -29,6 +33,10 @@ class ComposerStaticInitf81e87dc7d1ea0708593c795d5b0d828
         'mallka\\easygeo\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
+        ),
+        'SmartJson\\IpLocationZh\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/smartjson/ips-location-zh/src',
         ),
         'MaxMind\\Db\\' => 
         array (

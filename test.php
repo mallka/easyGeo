@@ -9,7 +9,8 @@ use mallka\easygeo\Geo;
 
 //method 2: static function call for get ip info
 $res = \mallka\easygeo\Geo::getInfo('113.110.215.242','./store/GeoLite2-City.mmdb','./store/GeoLite2-ASN.mmdb');
-var_dump($res);
+$res = json_encode($res, JSON_UNESCAPED_UNICODE|JSON_PRETTY_PRINT);
+
 
 //update your db file
 //\mallka\easygeo\Geo::update('Gw3SXxelyhRKobeQbcde','/Users/Eric/Desktop/easyGeo/store');

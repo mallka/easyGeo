@@ -4,7 +4,8 @@
     "type": "library",
     "require": {
         "maxmind-db/reader": "~1.0",
-        "tronovav/geoip2-update": "^1.2"
+        "tronovav/geoip2-update": "^1.2",
+        "smartjson/ips-location-zh": "^1.1"
     },
     "license": "mit",
     "authors": [

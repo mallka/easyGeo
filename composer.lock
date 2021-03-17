@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "910eb0e035af2b658574483093bdfbfb",
+    "content-hash": "ef3a902ddff01b9eb7a7a030882163a4",
     "packages": [
         {
             "name": "maxmind-db/reader",
@@ -66,6 +66,45 @@
                 "maxmind"
             ],
             "time": "2021-02-09T17:52:47+00:00"
+        },
+        {
+            "name": "smartjson/ips-location-zh",
+            "version": "v1.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/smartjsoncom/ip-location-zh.git",
+                "reference": "f7f6c4f158eec05f07e87d567eae8001eccf5759"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/smartjsoncom/ip-location-zh/zipball/f7f6c4f158eec05f07e87d567eae8001eccf5759",
+                "reference": "f7f6c4f158eec05f07e87d567eae8001eccf5759",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "SmartJson\\IpLocationZh\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jason Sun",
+                    "email": "chensongah@hotmail.com"
+                }
+            ],
+            "description": "ipip.net resource, Fetch provincial information via IP.",
+            "keywords": [
+                "China",
+                "Chinese",
+                "IP",
+                "location"
+            ],
+            "time": "2020-01-19T11:35:11+00:00"
         },
         {
             "name": "tronovav/geoip2-update",

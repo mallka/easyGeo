@@ -8,5 +8,6 @@ $baseDir = dirname($vendorDir);
 return array(
     'tronovav\\GeoIP2Update\\' => array($vendorDir . '/tronovav/geoip2-update/src'),
     'mallka\\easygeo\\' => array($baseDir . '/src'),
+    'SmartJson\\IpLocationZh\\' => array($vendorDir . '/smartjson/ips-location-zh/src'),
     'MaxMind\\Db\\' => array($vendorDir . '/maxmind-db/reader/src/MaxMind/Db'),
 );

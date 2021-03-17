@@ -63,6 +63,47 @@
         ]
     },
     {
+        "name": "smartjson/ips-location-zh",
+        "version": "v1.1.2",
+        "version_normalized": "1.1.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/smartjsoncom/ip-location-zh.git",
+            "reference": "f7f6c4f158eec05f07e87d567eae8001eccf5759"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/smartjsoncom/ip-location-zh/zipball/f7f6c4f158eec05f07e87d567eae8001eccf5759",
+            "reference": "f7f6c4f158eec05f07e87d567eae8001eccf5759",
+            "shasum": ""
+        },
+        "time": "2020-01-19T11:35:11+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "SmartJson\\IpLocationZh\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jason Sun",
+                "email": "chensongah@hotmail.com"
+            }
+        ],
+        "description": "ipip.net resource, Fetch provincial information via IP.",
+        "keywords": [
+            "China",
+            "Chinese",
+            "IP",
+            "location"
+        ]
+    },
+    {
         "name": "tronovav/geoip2-update",
         "version": "v1.2.5",
         "version_normalized": "1.2.5.0",
